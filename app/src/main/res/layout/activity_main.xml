@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Top Blue Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#1A237E">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Registration"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill in your details below"
+            android:textSize="13sp"
+            android:textColor="#C5CAE9"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+    <!-- Form -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:textSize="13sp"
+                android:textColor="#555555"
+                android:layout_marginBottom="4dp"/>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your full name"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#AAAAAA"
+                android:padding="12dp"
+                android:background="@android:drawable/edit_text"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+                android:textSize="13sp"
+                android:textColor="#555555"
+                android:layout_marginBottom="4dp"/>
+
+            <EditText
+                android:id="@+id/etDob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tap to select date"
+                android:textColor="#000000"
+                android:textColorHint="#AAAAAA"
+                android:padding="12dp"
+                android:focusable="false"
+                android:clickable="true"
+                android:background="@android:drawable/edit_text"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address"
+                android:textSize="13sp"
+                android:textColor="#555555"
+                android:layout_marginBottom="4dp"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your email"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:textColorHint="#AAAAAA"
+                android:padding="12dp"
+                android:background="@android:drawable/edit_text"
+                android:layout_marginBottom="32dp"/>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Submit"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#1A237E"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
