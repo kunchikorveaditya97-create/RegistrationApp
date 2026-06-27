@@ -68,6 +68,3 @@ app/build/outputs/apk/debug/app-debug.apk
 **Aditya Kunchikorve**
 - GitHub: [@kunchikorveaditya97-create](https://github.com/kunchikorveaditya97-create)
 
-## 📄 License
-
-This project was built as a job assignment for KidloLand (Formerly IDZ Digital).
